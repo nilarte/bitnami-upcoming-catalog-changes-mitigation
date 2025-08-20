@@ -1,0 +1,28 @@
+mongodb:
+  global:
+    security:
+      allowInsecureImages: true
+
+  externalAccess:
+    autoDiscovery:
+      image:
+        repository: bitnamilegacy/kubectl
+
+    dnsCheck:
+      image:
+        repository: bitnamilegacy/kubectl
+
+  image:
+    repository: bitnamilegacy/mongodb
+
+  tls:
+    image:
+      repository: bitnamilegacy/nginx
+
+  volumePermissions:
+    image:
+      repository: bitnamilegacy/os-shell
+
+  metrics:
+    image:
+      repository: bitnamilegacy/mongodb-exporter

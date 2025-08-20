@@ -1,0 +1,22 @@
+apiVersion: v2
+name: simple
+description: A Helm chart for Kubernetes
+
+# Chart type
+type: application
+
+# Chart version
+version: 0.1.0
+
+# Application version
+appVersion: "0.1.0"
+
+# Dependencies
+dependencies:
+  - name: redis-ha
+    version: 4.26.6
+    repository: https://dandydeveloper.github.io/charts
+
+  - name: mongodb
+    version: 15.6.17
+    repository: oci://registry-1.docker.io/bitnamicharts

@@ -1,0 +1,4 @@
+mongodb:
+  auth:
+    rootPassword: root1234
+  architecture: replicaset
