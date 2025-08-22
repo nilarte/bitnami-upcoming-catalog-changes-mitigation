@@ -1,0 +1,2 @@
+apisix:
+  replicaCount: 1

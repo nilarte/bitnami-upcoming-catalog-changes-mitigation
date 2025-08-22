@@ -1,0 +1,12 @@
+apisix:
+  etcd:
+    image:
+      registry: docker.io
+      repository: bitnamilegacy/etcd
+      tag: 3.5.7-debian-11-r14
+
+    volumePermissions:
+      image:
+        registry: docker.io
+        repository: bitnamilegacy/os-shell
+        tag: 11-debian-11-r90

@@ -1,0 +1,18 @@
+apiVersion: v2
+name: nested
+description: A Helm chart for Kubernetes
+
+# Chart type
+type: application
+
+# Chart version
+version: 0.1.0
+
+# Application version
+appVersion: "0.1.0"
+
+# Dependencies
+dependencies:
+  - name: apisix
+    version: "2.7.0"
+    repository: https://charts.apiseven.com
